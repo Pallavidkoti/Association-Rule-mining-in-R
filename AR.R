@@ -3,8 +3,8 @@ library(arules)
 library(DMwR)
 library("ROSE")
 
-train = fread('/home/pkoti/train_transactional_data_with_addr_emp_2018.csv',stringsAsFactors = T)
-test = fread('/home/pkoti/test_transactional_data_apr_new_dates.csv',stringsAsFactors = T)
+train = fread('train_transactional_data_with_addr_emp_2018.csv',stringsAsFactors = T)
+test = fread('test_transactional_data_apr_new_dates.csv',stringsAsFactors = T)
 
 
 
